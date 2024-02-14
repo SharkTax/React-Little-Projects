@@ -5,9 +5,7 @@ import RandomColor from "./components/randomHex"
 function App() {
   return (
     <div className="App">
-      {/*Accordian component*/}
-      <Accordian/>
-
+      {/*the random color*/}
       <RandomColor/>
     </div>
   );
