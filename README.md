@@ -8,7 +8,7 @@ because some times i can forget how to code some thing, and this repository will
 
 probably in a while i will be posting something cool in my profile. But for now just an crap repository 
 
-#how does it works?
+# how does it works?
 
 so when i commit a new little project from my machine i make a new branch, i will merge with the master branch, an after that i delete the other little projects from the branch of the main project i`ve commited.
 
