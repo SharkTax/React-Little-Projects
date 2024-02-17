@@ -1,5 +1,6 @@
 import './App.css';
 import ImageSlider from './components/image-slider';
+import LoadMoreData from './components/load-more-images';
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
         page={"1"}
         limit={"10"}
       />
+
+      <LoadMoreData/>
     </div>
   );
 }
