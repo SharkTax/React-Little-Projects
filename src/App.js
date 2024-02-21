@@ -3,6 +3,8 @@ import ImageSlider from './components/image-slider';
 import LoadMoreData from './components/load-more-images';
 import Treeview from './components/side-bar';
 import menus from './components/side-bar/list-sidebra';
+import QRCodeGenerator from './components/qr-code-generator';
+import LightDarkMode from './components/light-dark-mode';
 
 function App() {
   return (
@@ -23,6 +25,10 @@ function App() {
 
       <LoadMoreData/> 
       <Treeview menus={menus}/>
+
+      <QRCodeGenerator/>
+
+      <LightDarkMode/>
     </div>
   );
 }
