@@ -72,5 +72,3 @@ export default function ScrollIndicator({url}){
         </div>
     )
 }
-
-//2:43:51
