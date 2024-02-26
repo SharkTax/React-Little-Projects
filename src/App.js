@@ -1,4 +1,5 @@
 import './App.css';
+import TabTest from './components/custom-tabs/tab-test';
 import ImageSlider from './components/image-slider';
 import LoadMoreData from './components/load-more-images';
 import Treeview from './components/side-bar';
@@ -10,7 +11,7 @@ import ScrollIndicator from './components/scroll-indicator';
 function App() {
   return (
     <div className="App">
-
+      <TabTest/>
 
       <Accordian/>
 
