@@ -1,7 +1,4 @@
 import './App.css';
-import Accordian from './components/accordian';
-import RandomColor from "./components/randomHex"
-import StartRating from './components/star-rating';
 import ImageSlider from './components/image-slider';
 import LoadMoreData from './components/load-more-images';
 import Treeview from './components/side-bar';
@@ -13,10 +10,10 @@ import TabTest from './components/custom-tabs/tab-test';
 import ModalTest from './components/custom-model-popup/modal';
 import GitHubProfileFinder from './components/github-profile-finder';
 
-
 function App() {
   return (
     <div className="App">
+
 
       <Accordian/>
 
