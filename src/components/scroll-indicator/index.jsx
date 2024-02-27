@@ -45,7 +45,6 @@ export default function ScrollIndicator({url}){
         }
     },[])
 
-    console.log(data, scrollPorcentege)
 
     if(errorMessage){
         return <div>error {errorMessage}</div>
@@ -72,5 +71,3 @@ export default function ScrollIndicator({url}){
         </div>
     )
 }
-
-//2:43:51

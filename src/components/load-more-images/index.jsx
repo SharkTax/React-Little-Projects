@@ -19,8 +19,6 @@ export default function LoadMoreData(){
                 setProducts((prevData)=>[...prevData, ...result.products])
                 setLoading(false)
             }
-
-            console.log(result)
         }catch(e){
             console.log(e)
             setLoading(false)
